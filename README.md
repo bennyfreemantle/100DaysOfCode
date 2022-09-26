@@ -2,7 +2,7 @@
 
 ### Start date: 26/09/2022
 
-### Day 0:
+### Day 1:
 
 **Today's Progress**: psuedo-classes are tricky!
 
@@ -10,7 +10,7 @@
 
 <!-- **Link to work:** [Calculator App](http://www.example.com) -->
 
-### Day 1:
+### Day 2:
 
 **Today's Progress**: N/A
 
