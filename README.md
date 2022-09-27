@@ -12,6 +12,12 @@
 
 ### Day 2:
 
+**Today's Progress**: Git commands & Hack The Galaxy
+
+**Thoughts:** learned a few more Git commands and was humbled very quickly with the Hack The Galaxy problems. Critical and computational thinking is a skill I will undoubtable need to work on. Luckily, throughout my journey with SoC I will be exposed to plenty more problems to try and solve which i will carry through into my career.
+
+### Day 3:
+
 **Today's Progress**: N/A
 
 **Thoughts:** N/A
