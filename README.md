@@ -18,6 +18,7 @@
 
 ### Day 3:
 
-**Today's Progress**: N/A
+**Today's Progress**: JavaScript basics
 
-**Thoughts:** N/A
+
+**Thoughts:** Had a refresh on the JavaScript basics. Primitive types, functions and loops. Created a very basic password checking system with 3 tries and you’re out. Finally, helping others, helps me ALOT.
