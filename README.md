@@ -30,7 +30,9 @@
 
 **Today's Progress**: JavaScript basics continued
 
-**Thoughts:** Refresher on JS Objects and Arrays & how to add, remove, read and update them.
+**Thoughts:** How to approach receiving / giving feedback & the importance it has.
+Refresher on JS Objects and Arrays & how to add, remove, read and update them.
+Polishing up on the pair programming git clone, add, commit, push, pull work flow.
 
 ## Key Concepts
 
