@@ -82,9 +82,73 @@ delete object.age;
 ```
 
 ---
-
 ### Day 5:
 
-**Today's Progress**: N/A
+**Today's Progress**: Hackathon Friday
 
-**Thoughts:** N/A
+**Thoughts:** Our first Hackathon working as a pair. Pushing and pulling our changes to each other, taking it in turns to write up each task.
+
+## Key Concepts
+
+- Push, pulling git workflow is picking up speed
+- Plan, plan, plan.
+- Google is your friend, always ask it for help.
+
+---
+
+### Day 6:
+
+**Today's Progress**: Finishing Hackathon Project & Refactoring
+
+**Thoughts:** Refactoring code is frustrating. Finished Rock paper scissors app on my own forked repo. At times I wasn't sure why it wasn't working, breaking it down and trying another way helped alot. I kept making silly mistakes by leaving old variables and function calls which caused my app to behave in unexpected ways. Even if the code was logically correct.
+
+## Key Concepts
+
+- Functions doing only 1 thing
+- losing my mind after an hour of debugging it was because I had called the function twice…
+
+
+#### Extension 2: The Clairvoyant Computer plan / pseudo-code
+```js
+// Extentsion 2: The Clairvoyant Computer
+/**
+ * How would you go about making the computer win every time ?
+ * 
+ * You could change the way the computer chooses it's option
+ * instead of choosing based on a random number, it would know what you had chosen before
+ * by reading your value first.
+ * It would then choose the 'opposite' option to beat you everytime
+ * 
+ * you could store these 'opposite' pairings in an object
+ * 
+ * let clairvoyant = {
+ *  rock: 'paper',
+ *  paper: 'scissors',
+ *  scissors: 'rock'
+ * }
+ * 
+ * The computer would then access clairvoyant.userChoice as the computers choice
+ * so it would always choose the 'opposite' that beats the player 100% of the time
+ * 
+ * 
+ * 
+ * 
+ * How would you go about making it so that the computer wins more often
+ * 1/2 the time, 1/4 of the time, 90% of the time ?
+ * 
+ * using the implementation above, you could now add a random number generator
+ * to decide if its going to 'cheat' or not cheat. It's always the computer that gets
+ * to decide if they win or lose. And not luck.
+ * 
+ * random number 0 - 1 : cheat - don't cheat = 1/2 chance
+ * random number 0 - 3 : cheat - don't cheat = 1/4 chance
+ *  random number 0 - 9 : cheat - don't cheat
+ *  for 90% you would need to inverse the odd's so if the roll was between 0 - 8
+ *  the computer would win, 9 rolls = 90%
+ *  if the roll was 9 and only 9 the computer would let the player win giving the player
+ *  10% win chance.
+ * 
+ */
+```
+
+---
