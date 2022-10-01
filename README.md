@@ -98,7 +98,7 @@ delete object.age;
 
 ### Day 6:
 
-**Today's Progress**: Finishing Hackathon Project & Refactoring
+**Today's Progress**: Finishing [Hackathon Project](https://github.com/bennyfreemantle/w1_hackathon_rock-paper-scissors-git-test) & Refactoring
 
 **Thoughts:** Refactoring code is frustrating. Finished Rock paper scissors app on my own forked repo. At times I wasn't sure why it wasn't working, breaking it down and trying another way helped alot. I kept making silly mistakes by leaving old variables and function calls which caused my app to behave in unexpected ways. Even if the code was logically correct.
 
