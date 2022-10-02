@@ -152,3 +152,17 @@ delete object.age;
 ```
 
 ---
+
+### Day 7:
+
+**Today's Progress**: Rest & Research
+
+**Thoughts:** Slow day today, mostly recapping what I did last week and researching string and array methods and how to use them.
+
+## Key Concepts
+
+- forEach array loop
+- slice() string method extracting specific parts
+- replace() as the name suggests, replaces some or all that match a pattern
+
+---
