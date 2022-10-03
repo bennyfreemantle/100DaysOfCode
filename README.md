@@ -166,3 +166,40 @@ delete object.age;
 - replace() as the name suggests, replaces some or all that match a pattern
 
 ---
+
+### Day 8:
+
+**Today's Progress**: The JavaScript DOM
+
+**Thoughts:** The DOM is a JavaScript object representation of HTML, and not the HTML itself. It can be manipulated in many ways. Reading, writing, adding & deleting elements.
+
+## Key Concepts
+
+- How to read, write, delete and add elements from the DOM
+- querySelectorAll() method returns an ‘array like’ object called a NodeList
+- You can iterate over the NodeList and execute code on each item. Just like you can with an array.
+- console.dir() function is useful to visualise and see the object and all it’s properties
+    - displays an interactive list of the properties of the specified JavaScript object.
+
+```js
+// Point to the html #user-name and store the result into userName variable
+let userName = document.querySelector('#user-name');
+
+// Update the textContent of userName to = 'ben'
+userName.textContent = 'Ben';
+
+// Create a new element
+let newDiv = document.createElement('div');
+
+// Change / add content to the the new div
+newDiv.textContent = "I'm a fresh new div element";
+
+// Append the div to the body (will append as the last child)
+document.body.appendChild(newDiv);
+
+// Remove the div from the DOM
+document.body.removeChild(newDiv);
+
+```
+
+---
