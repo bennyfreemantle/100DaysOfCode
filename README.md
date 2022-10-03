@@ -171,7 +171,7 @@ delete object.age;
 
 **Today's Progress**: The JavaScript DOM
 
-**Thoughts:** The DOM is a JavaScript object representation of HTML, and not the HTML itself. It can be manipulated in many ways. Reading, writing, adding & deleting elements.
+**Thoughts:** The DOM is a JavaScript object representation of HTML, and not the HTML itself. It can be manipulated in many ways. Reading, writing, adding & deleting elements. Can start to fully see the power JavaScript has outside of just the console.
 
 ## Key Concepts
 
