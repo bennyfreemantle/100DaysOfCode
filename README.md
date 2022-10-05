@@ -230,3 +230,81 @@ userNameInput.addEventListener('keyup', updateOurUsername);
 ```
 
 ---
+
+### Day 10:
+
+**Today's Progress**: Fetch(), Async & Await & the Call stack
+
+**Thoughts:** Today was all about asynchronous JS and awaiting for it to resolve.
+I also learnt some useful functions provided to us by the browser API.. setTimeout(), setInterval() and how to combine these with the JS Date object to create a real time working clock.
+
+## Key Concepts
+
+- [Call Stack](#call-stack)
+- JS is synchronous by default meaning it reads from top to bottom
+- setTimeout(arg1, arg2)
+    - takes 2 arguments
+        - a function to ‘callback’
+        - time delay in milliseconds
+- setInterval
+    - allows us to run a block of code over and over at a set time interval
+    - similar to setTimeout() it takes 2 ‘primary’ arguments. A callback function & a time delay in milliseconds
+    - we can use clearInterval() to stop our setIntveral 'loop' from running.
+```js
+let count = 0;
+// using an anon function, could also use => syntax
+let countUp = setInterval(function() {
+  // increase our counter by 1 every second
+  count++;
+  
+  if (count === 5) {
+    // Stops our countUp interval timer if count === 5
+    clearInterval(countUp);
+  }
+  // log out our count
+  console.log(`our count is: ${count}`)
+  // 1000 milliseconds = 1 second
+}, 1000)
+
+```
+
+### Call Stack
+
+- orders of instructions we give to execute in order
+- setTimeout creates a separate queue - Callback queue
+- once the elapsed times passes, an event loop executes
+    - prioritises the function in the call stack and slots it back in to the top
+
+![call stack and event loop](https://miro.medium.com/max/1400/1*iHhUyO4DliDwa6x_cO5E3A.gif)
+
+### Fetch()
+
+- visits an external link and ‘fetches’ its content
+- fetch returns a promise so we need to await it
+- comes back most commonly as a json object
+- we need to await our data.json() to parse into a regular object
+- access our object using . or [ ] notation
+
+```js
+// async function expects an await
+async function foo() {
+	// fetch some api end point returning json
+	let response = await fetch("https://api.kanye.rest");
+	// useful to check its done good
+	if (response.status == 200) {
+		// our response was successful
+		// do our code
+		// get the json out of the response and await it
+		let data = await response.json();
+		// log our data
+		console.log(data);
+		let quote = data.quote;
+		// log our quote
+		console.log(quote);
+	}
+}
+
+foo();
+```
+
+---
