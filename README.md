@@ -250,6 +250,7 @@ I also learnt some useful functions provided to us by the browser API.. setTimeo
     - allows us to run a block of code over and over at a set time interval
     - similar to setTimeout() it takes 2 ‘primary’ arguments. A callback function & a time delay in milliseconds
     - we can use clearInterval() to stop our setIntveral 'loop' from running.
+    - 
 ```js
 let count = 0;
 // using an anon function, could also use => syntax
@@ -305,6 +306,7 @@ async function foo() {
 }
 
 foo();
+
 ```
 
 ---
