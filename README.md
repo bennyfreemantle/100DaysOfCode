@@ -203,3 +203,30 @@ document.body.removeChild(newDiv);
 ```
 
 ---
+
+### Day 9:
+
+**Today's Progress**: The JavaScript DOM Continued & addEventListener()
+
+**Thoughts:** Continuing from yesterday, working with the DOM and implementing addEventListeners to a starter RPS project. We also had a previous bootcamper come in the morning and give a quick talk to help reassure, that what we might be feeling is normal and being flooded with information isn't necessarily a bad thing. We just have to keep working and building things with our prior knowledge, and laying need bricks on top of it.
+
+## Key Concepts
+
+- An event is an object
+- on every DOM node object ‘addEventListener’ method exists
+- addEventListener(arg1, arg2) takes in 2 arguments
+- arg1 == type of event js needs to listen for ‘click’, ‘mouseover’
+- arg2 == the function called that contains the code we want to execute
+    - callback function, the definition of that function
+- event.target.value to read value
+
+```js
+// gets the id #user-name from our DOM
+let userNameInput = document.querySelector('#user-name');
+// adds an event listener to our #user-name id
+// listens when the user 'keyup' on our element
+userNameInput.addEventListener('keyup', updateOurUsername);
+
+```
+
+---
