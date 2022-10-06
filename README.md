@@ -310,3 +310,15 @@ foo();
 ```
 
 ---
+
+Continuing to build on yesterdays knowledge of fetch. Traversing larger ‘messier’ objects and programmatically retrieving values we wanted by passing in data as arguments to functions. I also learnt a lot about diversity in the work place and how we can use to our advantage in solving complex problems. This is because different people have different skill sets, and although sometimes conflict with opposites. We can use each others strengths and not weaknesses to solve problems faster.
+
+### Day 11:
+
+**Today's Progress**: Cognitive Diversity & Continuation of Objects
+
+**Thoughts:** I learnt a lot about diversity in the work place and how we can use to our advantage in solving complex problems. This is because different people have different skill sets, and although sometimes conflict with opposites. We can use each others strengths and not weaknesses to solve problems faster. 
+
+I also continued to build on yesterdays knowledge of fetch. Traversing larger ‘messier’ objects and programmatically retrieving values we wanted by passing in data as arguments to functions.
+
+---
