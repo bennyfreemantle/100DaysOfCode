@@ -310,9 +310,6 @@ foo();
 ```
 
 ---
-
-Continuing to build on yesterdays knowledge of fetch. Traversing larger ‘messier’ objects and programmatically retrieving values we wanted by passing in data as arguments to functions. I also learnt a lot about diversity in the work place and how we can use to our advantage in solving complex problems. This is because different people have different skill sets, and although sometimes conflict with opposites. We can use each others strengths and not weaknesses to solve problems faster.
-
 ### Day 11:
 
 **Today's Progress**: Cognitive Diversity & Continuation of Objects
@@ -320,5 +317,68 @@ Continuing to build on yesterdays knowledge of fetch. Traversing larger ‘messi
 **Thoughts:** I learnt a lot about diversity in the work place and how we can use to our advantage in solving complex problems. This is because different people have different skill sets, and although sometimes conflict with opposites. We can use each others strengths and not weaknesses to solve problems faster. 
 
 I also continued to build on yesterdays knowledge of fetch. Traversing larger ‘messier’ objects and programmatically retrieving values we wanted by passing in data as arguments to functions.
+
+---
+
+### Day 11:
+
+**Today's Progress**: Hackathon Friday Week 2
+
+**Thoughts:** Another week, another hackathon! Today we didn’t have a specific task to do asides from using 1 or more free API’s to fetch data from. It was up to us to decide how we used that data and create an app / website from it.
+
+**Key Concepts**
+
+- Work to a plan until you get stuck, then plan a little more is a big takeaway from today.
+- If you’re stuck on a ‘feature’ and it’s taking up a lot of time to resolve. Skipping it and working on something you can tackle is better.
+- When trying to access returned data from our fetch function. We need to also async & await the function call from our other function we want to access it with.
+
+```js
+async function fetchData() {
+	// await the server to give us back their data
+	let response = await fetch("https://someApiEndPoint");
+	// await the time it takes to convert our response from json to a normal js object
+	let data = await response.json();
+	// finally we can return our data to be used in other parts of our app
+	return data;
+}
+
+async function useData() {
+	// call the fetchData() function and still await for it
+	let data = await fetchData();
+	// we can now access the fetched data because we have waited for it 
+	console.log(data.name);
+}
+```
+
+## How to shuffle an array
+```js
+// shuffles our answers in our array
+const shuffledArray = answers.sort(() => 0.5 - Math.random());
+```
+
+## Challenges Experienced
+
+- Removing the old HTML children while also being able to generate more with the same click
+    - We spent a lot of time trying to get this to work. We thought we had it at one point, but it caused another part of our app (validating the correct answers) to not work anymore.
+
+
+---
+
+### Day 12:
+
+**Thoughts** Didn't actually code much today, spent alot of it writing down future project ideas and exploring different API's I could work with.
+
+**API'S** 
+
+1) Fuel API - Calculate the cost to fill your car at different fuel stations. Maybe the cost of driving down the road will save you a considerate amount of money ?
+2) Deck of cards API - Endless amounts of idea spring to mind. Hi-Lo, 'On the Bus' drinking game, even a simplified poker - turn complex using web sockets for multiplayer.
+
+---
+
+### Day 13:
+
+**Thoughts** *Full Day Build*. As the name might suggest, full day builds is a project idea where I try and build an app / website in a day. This obviously won't be a full, fleshed out project. But it might spark an interesting project idea I wish to continue building onto as weeks go by.
+
+As for today's project, I want to look into the [Deck of cards](https://www.deckofcardsapi.com/) API and build a simple Hi-Low game.
 
 ---
