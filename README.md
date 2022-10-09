@@ -320,7 +320,7 @@ I also continued to build on yesterdays knowledge of fetch. Traversing larger â€
 
 ---
 
-### Day 11:
+### Day 12:
 
 **Today's Progress**: Hackathon Friday Week 2
 
@@ -364,7 +364,7 @@ const shuffledArray = answers.sort(() => 0.5 - Math.random());
 
 ---
 
-### Day 12:
+### Day 13:
 
 **Thoughts** Didn't actually code much today, spent alot of it writing down future project ideas and exploring different API's I could work with.
 
@@ -375,7 +375,7 @@ const shuffledArray = answers.sort(() => 0.5 - Math.random());
 
 ---
 
-### Day 13:
+### Day 14:
 
 **Thoughts** *Full Day Build*. As the name might suggest, full day builds is a project idea where I try and build an app / website in a day. This obviously won't be a full, fleshed out project. But it might spark an interesting project idea I wish to continue building onto as weeks go by.
 
