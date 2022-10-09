@@ -379,6 +379,8 @@ const shuffledArray = answers.sort(() => 0.5 - Math.random());
 
 **Thoughts** *Full Day Build*. As the name might suggest, full day builds is a project idea where I try and build an app / website in a day. This obviously won't be a full, fleshed out project. But it might spark an interesting project idea I wish to continue building onto as weeks go by.
 
-As for today's project, I want to look into the [Deck of cards](https://www.deckofcardsapi.com/) API and build a simple Hi-Low game.
+As for today's project, ~~I want to look into the [Deck of cards](https://www.deckofcardsapi.com/) API and build a simple Hi-Low game.~~ Finished a simple Higher or Lower game using the cards API.
+
+Access it here - [https://bennyfreemantle.github.io/higher-or-lower/](https://bennyfreemantle.github.io/higher-or-lower/)
 
 ---
